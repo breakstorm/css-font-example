@@ -1,5 +1,21 @@
 body {}
 
+@font-face {
+  font-family: test1;
+  /* src: "Kumar_One_Outline"; */
+  /* src: local(); */
+  src: url(./Kumar_One_Outline/KumarOneOutline-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: test2;
+  src: "Spicy_Rice";
+  font-style: normal;
+  font-weight: normal;
+}
+
 .font-serif {
   font-family: serif;
 }
@@ -10,4 +26,12 @@ body {}
 
 .font-monospace {
   font-family: monospace;
+}
+
+.font-test1 {
+  font-family: test1;
+}
+
+.font-test2 {
+  font-family: test2;
 }
